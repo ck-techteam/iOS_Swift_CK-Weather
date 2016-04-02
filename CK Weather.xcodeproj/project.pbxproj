@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03881A881CAF9A8F006D63F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03881A871CAF9A8F006D63F6 /* AppDelegate.swift */; };
+		03881A8A1CAF9A8F006D63F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03881A891CAF9A8F006D63F6 /* ViewController.swift */; };
+		03881A8D1CAF9A8F006D63F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03881A8B1CAF9A8F006D63F6 /* Main.storyboard */; };
+		03881A8F1CAF9A8F006D63F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03881A8E1CAF9A8F006D63F6 /* Assets.xcassets */; };
+		03881A921CAF9A8F006D63F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03881A901CAF9A8F006D63F6 /* LaunchScreen.storyboard */; };
+		03881AA01CAF9B62006D63F6 /* myriad-set-pro_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9A1CAF9B62006D63F6 /* myriad-set-pro_bold.ttf */; };
+		03881AA11CAF9B62006D63F6 /* myriad-set-pro_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9B1CAF9B62006D63F6 /* myriad-set-pro_medium.ttf */; };
+		03881AA21CAF9B62006D63F6 /* myriad-set-pro_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9C1CAF9B62006D63F6 /* myriad-set-pro_semibold.ttf */; };
+		03881AA31CAF9B62006D63F6 /* myriad-set-pro_text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9D1CAF9B62006D63F6 /* myriad-set-pro_text.ttf */; };
+		03881AA41CAF9B62006D63F6 /* myriad-set-pro_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9E1CAF9B62006D63F6 /* myriad-set-pro_thin.ttf */; };
+		03881AA51CAF9B62006D63F6 /* myriad-set-pro_ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03881A9F1CAF9B62006D63F6 /* myriad-set-pro_ultralight.ttf */; };
+		03881AAB1CAFA1B4006D63F6 /* bg-doodle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03881AAA1CAFA1B4006D63F6 /* bg-doodle@2x.png */; };
+		03881AAF1CAFA498006D63F6 /* WeatherReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03881AAD1CAFA498006D63F6 /* WeatherReportViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03881A841CAF9A8E006D63F6 /* CK Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CK Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03881A871CAF9A8F006D63F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03881A891CAF9A8F006D63F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03881A8C1CAF9A8F006D63F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03881A8E1CAF9A8F006D63F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03881A911CAF9A8F006D63F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03881A931CAF9A8F006D63F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03881A9A1CAF9B62006D63F6 /* myriad-set-pro_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_bold.ttf"; sourceTree = "<group>"; };
+		03881A9B1CAF9B62006D63F6 /* myriad-set-pro_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_medium.ttf"; sourceTree = "<group>"; };
+		03881A9C1CAF9B62006D63F6 /* myriad-set-pro_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_semibold.ttf"; sourceTree = "<group>"; };
+		03881A9D1CAF9B62006D63F6 /* myriad-set-pro_text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_text.ttf"; sourceTree = "<group>"; };
+		03881A9E1CAF9B62006D63F6 /* myriad-set-pro_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_thin.ttf"; sourceTree = "<group>"; };
+		03881A9F1CAF9B62006D63F6 /* myriad-set-pro_ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_ultralight.ttf"; sourceTree = "<group>"; };
+		03881AAA1CAFA1B4006D63F6 /* bg-doodle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-doodle@2x.png"; sourceTree = "<group>"; };
+		03881AAD1CAFA498006D63F6 /* WeatherReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherReportViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03881A811CAF9A8E006D63F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03881A7B1CAF9A8E006D63F6 = {
+			isa = PBXGroup;
+			children = (
+				03881A861CAF9A8F006D63F6 /* CK Weather */,
+				03881A851CAF9A8E006D63F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03881A851CAF9A8E006D63F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03881A841CAF9A8E006D63F6 /* CK Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03881A861CAF9A8F006D63F6 /* CK Weather */ = {
+			isa = PBXGroup;
+			children = (
+				03881AAC1CAFA1B7006D63F6 /* Images */,
+				03881A991CAF9B62006D63F6 /* Font */,
+				03881A871CAF9A8F006D63F6 /* AppDelegate.swift */,
+				03881A891CAF9A8F006D63F6 /* ViewController.swift */,
+				03881AAD1CAFA498006D63F6 /* WeatherReportViewController.swift */,
+				03881A8B1CAF9A8F006D63F6 /* Main.storyboard */,
+				03881A8E1CAF9A8F006D63F6 /* Assets.xcassets */,
+				03881A901CAF9A8F006D63F6 /* LaunchScreen.storyboard */,
+				03881A931CAF9A8F006D63F6 /* Info.plist */,
+			);
+			path = "CK Weather";
+			sourceTree = "<group>";
+		};
+		03881A991CAF9B62006D63F6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				03881A9A1CAF9B62006D63F6 /* myriad-set-pro_bold.ttf */,
+				03881A9B1CAF9B62006D63F6 /* myriad-set-pro_medium.ttf */,
+				03881A9C1CAF9B62006D63F6 /* myriad-set-pro_semibold.ttf */,
+				03881A9D1CAF9B62006D63F6 /* myriad-set-pro_text.ttf */,
+				03881A9E1CAF9B62006D63F6 /* myriad-set-pro_thin.ttf */,
+				03881A9F1CAF9B62006D63F6 /* myriad-set-pro_ultralight.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		03881AAC1CAFA1B7006D63F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03881AAA1CAFA1B4006D63F6 /* bg-doodle@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03881A831CAF9A8E006D63F6 /* CK Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03881A961CAF9A8F006D63F6 /* Build configuration list for PBXNativeTarget "CK Weather" */;
+			buildPhases = (
+				03881A801CAF9A8E006D63F6 /* Sources */,
+				03881A811CAF9A8E006D63F6 /* Frameworks */,
+				03881A821CAF9A8E006D63F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CK Weather";
+			productName = "CK Weather";
+			productReference = 03881A841CAF9A8E006D63F6 /* CK Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03881A7C1CAF9A8E006D63F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Armor;
+				TargetAttributes = {
+					03881A831CAF9A8E006D63F6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 03881A7F1CAF9A8E006D63F6 /* Build configuration list for PBXProject "CK Weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03881A7B1CAF9A8E006D63F6;
+			productRefGroup = 03881A851CAF9A8E006D63F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03881A831CAF9A8E006D63F6 /* CK Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03881A821CAF9A8E006D63F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03881AA21CAF9B62006D63F6 /* myriad-set-pro_semibold.ttf in Resources */,
+				03881AA11CAF9B62006D63F6 /* myriad-set-pro_medium.ttf in Resources */,
+				03881AA41CAF9B62006D63F6 /* myriad-set-pro_thin.ttf in Resources */,
+				03881AA31CAF9B62006D63F6 /* myriad-set-pro_text.ttf in Resources */,
+				03881AA01CAF9B62006D63F6 /* myriad-set-pro_bold.ttf in Resources */,
+				03881A921CAF9A8F006D63F6 /* LaunchScreen.storyboard in Resources */,
+				03881AAB1CAFA1B4006D63F6 /* bg-doodle@2x.png in Resources */,
+				03881AA51CAF9B62006D63F6 /* myriad-set-pro_ultralight.ttf in Resources */,
+				03881A8F1CAF9A8F006D63F6 /* Assets.xcassets in Resources */,
+				03881A8D1CAF9A8F006D63F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03881A801CAF9A8E006D63F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03881A8A1CAF9A8F006D63F6 /* ViewController.swift in Sources */,
+				03881AAF1CAFA498006D63F6 /* WeatherReportViewController.swift in Sources */,
+				03881A881CAF9A8F006D63F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03881A8B1CAF9A8F006D63F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03881A8C1CAF9A8F006D63F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03881A901CAF9A8F006D63F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03881A911CAF9A8F006D63F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03881A941CAF9A8F006D63F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03881A951CAF9A8F006D63F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03881A971CAF9A8F006D63F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CK Weather/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armor.CK-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03881A981CAF9A8F006D63F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CK Weather/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armor.CK-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03881A7F1CAF9A8E006D63F6 /* Build configuration list for PBXProject "CK Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03881A941CAF9A8F006D63F6 /* Debug */,
+				03881A951CAF9A8F006D63F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03881A961CAF9A8F006D63F6 /* Build configuration list for PBXNativeTarget "CK Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03881A971CAF9A8F006D63F6 /* Debug */,
+				03881A981CAF9A8F006D63F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03881A7C1CAF9A8E006D63F6 /* Project object */;
+}
